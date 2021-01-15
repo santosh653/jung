@@ -1,5 +1,18 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : jung-algorithms
+# Source Repo         : https://github.com/jrtom/jung
+# Travis Job Link     : https://travis-ci.com/github/santosh653/jung
+# Created travis.yml  : No
+# Maintainer          : Santosh Kulkarni <santoshkulkarni70@gmail.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
 # Per https://docs.travis-ci.com/user/languages/java
-
+arch:
+  - amd64
+  - ppc64le
 sudo: false
 
 language: java
