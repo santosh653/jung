@@ -24,6 +24,11 @@ dist: trusty
 jdk:
   - oraclejdk8
   - openjdk8
+# Excluding oraclejdk8 on power which is not supported.
+jobs:
+ exclude:
+  - jdk: oraclejdk8
+    arch: ppc64le
 
 install:
   - mvn -v
